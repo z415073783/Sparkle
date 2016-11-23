@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>GroupType</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>ButtonItemType</string>
+			<key>Title</key>
+			<string>Help</string>
+			<key>Key</key>
+			<string>Help</string>
+			<key>TextAlignment</key>
+			<string>NSTextAlignmentLeft</string>
+		</dict>
+	</array>
+	<key>Title</key>
+	<string>About</string>
+</dict>
+</plist>

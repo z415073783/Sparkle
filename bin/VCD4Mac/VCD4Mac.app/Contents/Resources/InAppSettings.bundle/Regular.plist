@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>GroupType</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>TextFieldType</string>
+			<key>Key</key>
+			<string>SiteName</string>
+			<key>Title</key>
+			<string>Site Name</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>ComboxType</string>
+			<key>Key</key>
+			<string>Language</string>
+			<key>Title</key>
+			<string>Language</string>
+			<key>Titles</key>
+			<array>
+				<string>English</string>
+				<string>Chinese(Simple)</string>
+				<string>Chinese(Traditional)</string>
+			</array>
+			<key>Values</key>
+			<array>
+				<string>en</string>
+				<string>zh-Hans</string>
+				<string>zh-Hant</string>
+			</array>
+			<key>DefaultValue</key>
+			<string>en</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>CheckBoxType</string>
+			<key>Title</key>
+			<string>Start on boot</string>
+			<key>DefaultValue</key>
+			<false/>
+			<key>Key</key>
+			<string>Start_Boot</string>
+		</dict>
+	</array>
+	<key>Title</key>
+	<string>Basic Setting</string>
+</dict>
+</plist>

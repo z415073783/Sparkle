@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>GroupType</string>
+			<key>Title</key>
+			<string>Reserve Port</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>ComboxType</string>
+			<key>Key</key>
+			<string>Adapter</string>
+			<key>Title</key>
+			<string>Adapter</string>
+			<key>DefaultValue</key>
+			<string>Auto</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>ScopeValueType</string>
+			<key>Key</key>
+			<string>UDP_Port_Scope</string>
+			<key>Title</key>
+			<string>UDP Port Scope</string>
+			<key>MinimumValue</key>
+			<string>50299</string>
+			<key>MaximumValue</key>
+			<string>50499</string>
+			<key>DefaultValue</key>
+			<string>0</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>ScopeValueType</string>
+			<key>Key</key>
+			<string>TCP_Port_Scope</string>
+			<key>Title</key>
+			<string>TCP Port Scope</string>
+			<key>MinimumValue</key>
+			<string>45236</string>
+			<key>MaximumValue</key>
+			<string>50490</string>
+			<key>DefaultValue</key>
+			<string>0</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>ComboxType</string>
+			<key>Key</key>
+			<string>Static_NAT</string>
+			<key>Title</key>
+			<string>Static NAT</string>
+			<key>Titles</key>
+			<array>
+				<string>Disabled</string>
+				<string>Manual Settings</string>
+				<string>Auto</string>
+			</array>
+			<key>Values</key>
+			<array>
+				<string>0</string>
+				<string>1</string>
+				<string>2</string>
+			</array>
+			<key>DefaultValue</key>
+			<string>0</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>TextFieldType</string>
+			<key>Key</key>
+			<string>NAT_IP_Address</string>
+			<key>Title</key>
+			<string>NAT IP Address</string>
+		</dict>
+	</array>
+	<key>Title</key>
+	<string>Network</string>
+</dict>
+</plist>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>GroupType</string>
+		</dict>
+		<dict>
+			<key>Key</key>
+			<string>Speaker</string>
+			<key>Title</key>
+			<string>Speaker</string>
+			<key>Type</key>
+			<string>ComboxType</string>
+			<key>DefaultValue</key>
+			<string>Use system default device</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>ComboxType</string>
+			<key>Key</key>
+			<string>Microphone</string>
+			<key>Title</key>
+			<string>Microphone</string>
+			<key>DefaultValue</key>
+			<string>Use system default device</string>
+		</dict>
+		<dict>
+			<key>Key</key>
+			<string>Camera</string>
+			<key>Type</key>
+			<string>ComboxType</string>
+			<key>Title</key>
+			<string>Camera</string>
+			<key>DefaultValue</key>
+			<string>Use system default device</string>
+		</dict>
+	</array>
+	<key>Title</key>
+	<string>Device</string>
+</dict>
+</plist>

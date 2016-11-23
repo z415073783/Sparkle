@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>GroupType</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>CheckBoxType</string>
+			<key>Key</key>
+			<string>Auto_Answer</string>
+			<key>Title</key>
+			<string>Auto Answer</string>
+			<key>DefaultValue</key>
+			<string>0</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>ComboxType</string>
+			<key>Title</key>
+			<string>Call Type</string>
+			<key>Key</key>
+			<string>CallType</string>
+			<key>Titles</key>
+			<array>
+				<string>Auto</string>
+				<string>H.323</string>
+				<string>SIP</string>
+			</array>
+			<key>Values</key>
+			<array>
+				<string>Auto</string>
+				<string>H.323</string>
+				<string>SIP</string>
+			</array>
+			<key>DefaultValue</key>
+			<string>Auto</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>ComboxType</string>
+			<key>Title</key>
+			<string>Uplink Bandwidth</string>
+			<key>Key</key>
+			<string>Uplink_Bandwidth</string>
+			<key>Titles</key>
+			<array>
+				<string>Auto</string>
+				<string>1280kb/s</string>
+				<string>1024kb/s</string>
+				<string>768kb/s</string>
+				<string>640kb/s</string>
+				<string>512kb/s</string>
+				<string>384kb/s</string>
+				<string>256kb/s</string>
+			</array>
+			<key>Values</key>
+			<array>
+				<string>0</string>
+				<string>1280</string>
+				<string>1024</string>
+				<string>768</string>
+				<string>640</string>
+				<string>512</string>
+				<string>384</string>
+				<string>256</string>
+			</array>
+			<key>DefaultValue</key>
+			<string>0</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>ComboxType</string>
+			<key>Title</key>
+			<string>Downlink Bandwidth</string>
+			<key>Key</key>
+			<string>Downlink_Bandwidth</string>
+			<key>Titles</key>
+			<array>
+				<string>Auto</string>
+				<string>1280kb/s</string>
+				<string>1024kb/s</string>
+				<string>768kb/s</string>
+				<string>640kb/s</string>
+				<string>512kb/s</string>
+				<string>384kb/s</string>
+				<string>256kb/s</string>
+			</array>
+			<key>Values</key>
+			<array>
+				<string>0</string>
+				<string>1280</string>
+				<string>1024</string>
+				<string>768</string>
+				<string>640</string>
+				<string>512</string>
+				<string>384</string>
+				<string>256</string>
+			</array>
+			<key>DefaultValue</key>
+			<string>0</string>
+		</dict>
+	</array>
+	<key>Title</key>
+	<string>Call Features</string>
+</dict>
+</plist>

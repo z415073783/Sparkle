@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>GroupType</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>MailComposeType</string>
+			<key>Title</key>
+			<string>Send system logs</string>
+			<key>Key</key>
+			<string>Send_Log</string>
+			<key>TextAlignment</key>
+			<string>NSTextAlignmentLeft</string>
+			<key>MailComposeSubject</key>
+			<string>Yealink VCM logs</string>
+			<key>MailComposeToRecipents</key>
+			<array>
+				<string>ios_support@yealink.com</string>
+			</array>
+			<key>MailComposeBody</key>
+			<string>Yealink VCM logs</string>
+			<key>MailComposeBodyIsHTML</key>
+			<true/>
+		</dict>
+	</array>
+	<key>Title</key>
+	<string>Diagnoses</string>
+</dict>
+</plist>

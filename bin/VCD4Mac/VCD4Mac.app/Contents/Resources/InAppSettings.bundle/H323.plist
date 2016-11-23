@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>GroupType</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>TitleValueType</string>
+			<key>Key</key>
+			<string>H323_Reg_Status</string>
+			<key>Title</key>
+			<string>Register Status</string>
+			<key>DefaultValue</key>
+			<string>Unregistered</string>
+			<key>Values</key>
+			<array>
+				<string>Unregistered</string>
+				<string>Registered</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>CheckBoxType</string>
+			<key>Key</key>
+			<string>H323_Switch</string>
+			<key>Title</key>
+			<string>H.323 Switch</string>
+			<key>DefaultValue</key>
+			<string>0</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>TextFieldType</string>
+			<key>Key</key>
+			<string>H323_Name</string>
+			<key>Title</key>
+			<string>User Name</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>TextFieldType</string>
+			<key>Key</key>
+			<string>H323_Extension</string>
+			<key>Title</key>
+			<string>Extension</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>TextFieldType</string>
+			<key>Key</key>
+			<string>H323_GK_IP_Address</string>
+			<key>Title</key>
+			<string>GK Server</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>CheckBoxType</string>
+			<key>Key</key>
+			<string>H235_Encryption</string>
+			<key>Title</key>
+			<string>H235 Encryption</string>
+			<key>DefaultValue</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>CheckBoxType</string>
+			<key>Key</key>
+			<string>GK_Switch</string>
+			<key>Title</key>
+			<string>GK Authentication</string>
+			<key>DefaultValue</key>
+			<string>0</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>TextFieldType</string>
+			<key>Key</key>
+			<string>GK_User_Name</string>
+			<key>Title</key>
+			<string>GK Username</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>SecureTextFieldType</string>
+			<key>Key</key>
+			<string>GK_Password</string>
+			<key>Title</key>
+			<string>GK Password</string>
+			<key>Secure</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>CheckBoxType</string>
+			<key>Key</key>
+			<string>H460</string>
+			<key>Title</key>
+			<string>H.460</string>
+			<key>DefaultValue</key>
+			<string>0</string>
+		</dict>
+	</array>
+	<key>Title</key>
+	<string>H323</string>
+</dict>
+</plist>
